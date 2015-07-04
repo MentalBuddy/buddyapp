@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/unselected_curved_corners">
+
+
+    <TextView android:id="@+id/comment_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"/>
+
+
+    <ImageView android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/peter"
+        android:id="@+id/image"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Username"
+        android:layout_toRightOf="@id/image"
+        android:layout_marginLeft="8dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/username"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="2 mins ago"
+        android:textColor="@android:color/black"
+        android:id="@+id/time"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="60dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        android:layout_alignLeft="@id/username"
+        android:textColor="@android:color/black"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:id="@+id/comment"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/black"
+        android:id="@+id/hugs"
+        android:text="15 Hugs"/>
+
+</RelativeLayout>

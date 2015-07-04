@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/unselected_curved_corners">
+
+
+    <TextView android:id="@+id/comment_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+    <ImageView android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/peter"
+        android:id="@+id/image"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Username"
+        android:layout_toRightOf="@id/image"
+        android:layout_marginLeft="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:id="@+id/username"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="2 mins ago"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:id="@+id/time"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:id="@+id/hugs"
+        android:text="15 Hugs"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hugs"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:id="@+id/comment"/>
+
+</RelativeLayout>

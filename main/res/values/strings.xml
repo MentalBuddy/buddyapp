@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NJIT App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="moods">
+        <item >Rant</item>
+        <item >Encourage</item>
+        <item >Laugh</item>
+        <item >Rage</item>
+        <item >Confess</item>
+    </string-array>
+</resources>

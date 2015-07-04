@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/description_edit_corners">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="42dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:editable="true"
+        android:inputType="textShortMessage|textMultiLine"
+        android:id="@+id/profile_description_expanded"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/done_description_editing"
+        android:text="DONE"
+        android:layout_below="@id/profile_description_expanded"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
